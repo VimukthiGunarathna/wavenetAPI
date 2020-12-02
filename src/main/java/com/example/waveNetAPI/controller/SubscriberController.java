@@ -25,7 +25,7 @@ public class SubscriberController {
     @PostMapping("/addSubscriber")
     public ResponseEntity<Subscriber> addSubscriber(@RequestBody Subscriber subscriber){
         try {
-            log.info("subscriber",subscriber.toString());
+            log.info("subscriber",subscriber.getMsisdn());
             service.addSubscriber(subscriber);
             return new ResponseEntity<>(HttpStatus.OK);
         } catch (Exception e){
