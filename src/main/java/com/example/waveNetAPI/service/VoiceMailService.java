@@ -8,6 +8,6 @@ import java.util.List;
 public interface VoiceMailService {
     void addVoiceMail(VoiceMail voiceMail);
     List<VoiceMail> getAllVoiceMails();
-    VoiceMail getVoiceMailById(VoiceMail voiceMail);
+    VoiceMail getVoiceMailById(Integer voiceMail);
     void deleteVoiceMail(int voiceMail);
 }

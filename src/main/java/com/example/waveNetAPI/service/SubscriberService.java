@@ -7,6 +7,6 @@ import java.util.List;
 public interface SubscriberService {
     void addSubscriber(Subscriber subscriber);
     List<Subscriber> getAllSubscribers();
-    Subscriber getSubscriberById(Subscriber subscriber_id);
+    Subscriber getSubscriberById(Integer subscriber_id);
     void deleteSubscriber(int subscriber_id);
 }

@@ -21,7 +21,7 @@ public class SubscriberServiceImpl implements SubscriberService {
     }
 
     @Override
-    public Subscriber getSubscriberById(Subscriber subscriber_id) {
+    public Subscriber getSubscriberById(Integer subscriber_id) {
         return null;
     }
 

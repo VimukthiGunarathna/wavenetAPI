@@ -21,7 +21,7 @@ public class VoiceMailServiceImpl implements VoiceMailService {
     }
 
     @Override
-    public VoiceMail getVoiceMailById(VoiceMail voiceMail) {
+    public VoiceMail getVoiceMailById(Integer voiceMail) {
         return null;
     }
 
